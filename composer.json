@@ -1,0 +1,21 @@
+{
+    "name": "dberry37388/messages",
+    "description": "A Simple Message Container for Laravel 4 Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Berry",
+            "email": "daniel@danielberry.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dberry37388\\Messages": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
