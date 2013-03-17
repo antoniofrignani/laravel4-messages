@@ -21,7 +21,7 @@ As I said, this is super super super simple setup. Feel free to make suggestions
 
 ###Adding Messages
 
-```Message::add($message = '', $attributes = array(), $log = false)```
+```Messages::add($message = '', $attributes = array(), $log = false)```
 
 All that is required is the first parameter. This is the message that you want to add.
 
@@ -39,11 +39,11 @@ Messages::add('message', array(
 
 ###Retrieving Messages
 
-``Message::get($container = 'default')```
+``Messages::get($container = 'default')```
 Grabs an array containing the message and attributes for a container.
 
 ```
-$messages = Message::get('name_of_containter');
+$messages = Messages::get('name_of_containter');
 ``` 
 
 This will return an array that has your message and any attributes that you added for that container.
@@ -51,7 +51,7 @@ This will return an array that has your message and any attributes that you adde
 
 ###Rendering Messages using View
 
-```Message::render($view = '', $container = '')```
+```Messages::render($view = '', $container = '')```
 Renders the message container using the View that you specify.  Pass a view using Laravel's default notation e.g. messages.views
 
 ```
